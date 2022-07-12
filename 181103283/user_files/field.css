@@ -1,0 +1,56 @@
+/* Field Content CSS */
+/* This will affect field content, but not the fields and UI outside the fields. */
+
+/* Use class .nightMode or .night_mode for night mode specific CSS */
+/* Use the attribute selector mid for for note type specific CSS, e.g. [mid="1616909476324"] */
+
+ul, ol {
+  display: inline-block;
+}
+ul {
+list-style-type: disc;
+}
+
+li {
+text-align: left;
+}
+
+ol > ol, ul > ul {
+display: block;
+}
+
+
+summary{
+font-size: 0.8em !important;
+background: var(--main-bg-color) !important;
+color: var(--main-text-color) !important;
+padding: 0px 5px !important;
+border-radius: 5px !important;
+border:2px solid black !important;
+transition-duration: 0.4s;
+width: 90% !important;
+outline: none;
+}
+details {
+border:1px solid black;
+padding-left: 10px;}
+
+
+summary:hover{
+background: black !important;
+color: white !important;
+}
+
+.Taxonomy {
+	font-style: italic;
+}
+/* Details and Summary Tags */
+/* details { */
+    /* padding: 15px; */
+    /* margin-bottom: 10px; */
+	/* display: inline; */
+/* } */
+
+/* details > summary { */
+  /* display: inline; */
+/* } */
